@@ -1,0 +1,8 @@
+# gitignore
+/.idea/
+/out/
+/lib/
+/web/
+jc.iml
+/src/*.xml
+/src/META-INF/
