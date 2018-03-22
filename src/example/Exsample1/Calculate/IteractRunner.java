@@ -13,6 +13,8 @@ public class IteractRunner {
             Calculator calc = new Calculator();
             String exit = "n";
             while (!exit.equals("y")) {
+                System.out.println("Please, select operation(1.\"+\";2.\"-\";3.\"*\";4.\"/\";5.\"^\"):");
+                String first = reader.next();
                 System.out.println("Enter first argument");
                 String first = reader.next();
                 System.out.println("Enter second argument");
