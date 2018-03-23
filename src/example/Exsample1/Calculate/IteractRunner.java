@@ -13,13 +13,13 @@ public class IteractRunner {
             Calculator calc = new Calculator();
             String exit = "n";
             while (!exit.equals("y")) {
-                System.out.println("Please, select operation(1.\"+\";2.\"-\";3.\"*\";4.\"/\";5.\"^\"):");
-                String first = reader.next();
                 System.out.println("Enter first argument");
-                String first = reader.next();
+                int first = Integer.parseInt(reader.next());
                 System.out.println("Enter second argument");
-                String second = reader.next();
-                calc.add(Integer.parseInt(first), Integer.parseInt(second));
+                int second = Integer.parseInt(reader.next());
+                //calculate
+                calc.operSelector(first, second);
+                //shows result
                 System.out.println("Result" + calc.getResult());
                 calc.clearResult();
                 System.out.println("Exit? : (y/n)");

@@ -15,29 +15,21 @@ public class ArgRunner {
     public static void main(String[] args) {
         int first = Integer.parseInt(args[0]);
         int second = Integer.parseInt(args[1]);
+        Calculator calc = new Calculator();
 
         try (Scanner reader = new Scanner(System.in)) {
-            Calculator calc = new Calculator();
             String exit = "n";
             while (!exit.equals("y")) {
-                System.out.println("Please, select operation(1.\"+\";2.\"-\";3.\"*\";4.\"/\";5.\"^\"):");
-                int selector = Integer.parseInt(reader.next());
-                switch (selector) :{
-                    case 1:
-                        calc.add(first, second);
-                        break;
-                    case 2:
-                        calc
-                }
+                calc.operSelector(first,second);
+                System.out.println("Calculation result:" + calc.getResult());
+                calc.clearResult();
+                System.out.println("Exit? : (y/n)");
+                exit = reader.next();
             }
 
-            System.out.println("Result" + calc.getResult());
-            calc.clearResult();
-            System.out.println("Exit? : (y/n)");
-            exit = reader.next();
         }
     }
 
 }
 
-}
+
