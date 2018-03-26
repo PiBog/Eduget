@@ -3,6 +3,7 @@
 /out/
 /lib/
 /web/
-jc.iml
+#jc.iml
 /src/*.xml
+/src/*.iml
 /src/META-INF/
