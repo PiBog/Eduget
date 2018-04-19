@@ -1,4 +1,4 @@
-package example.Exsample2.Animals;
+package ua.pp.sola.eduget.Exsample2.AnimalClinic.Animals;
 
 
 /**

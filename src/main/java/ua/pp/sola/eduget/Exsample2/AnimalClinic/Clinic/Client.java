@@ -1,6 +1,7 @@
-package example.Exsample2.Clinic;
+package ua.pp.sola.eduget.Exsample2.AnimalClinic.Clinic;
 
-import example.Exsample2.Animals.Animal;
+
+import ua.pp.sola.eduget.Exsample2.AnimalClinic.Animals.Animal;
 
 import java.util.Collections;
 import java.util.List;

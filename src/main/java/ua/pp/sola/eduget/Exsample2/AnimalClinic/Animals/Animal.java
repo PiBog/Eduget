@@ -1,7 +1,6 @@
-package example.Exsample2.Animals;
+package ua.pp.sola.eduget.Exsample2.AnimalClinic.Animals;
 
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 /**
  * Base class for animals

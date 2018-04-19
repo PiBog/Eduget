@@ -1,4 +1,4 @@
-package example.Exsample2.Clinic;
+package ua.pp.sola.eduget.Exsample2.AnimalClinic.Clinic;
 
 
 import java.util.logging.Handler;
