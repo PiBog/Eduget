@@ -1,10 +1,15 @@
 package example.Exsample2.Animals;
 
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
 /**
  * Base class for animals
  * @author Bogdan Pisarenko
  */
 public class Animal {
+
+
 
     /**
      * Contains animal's name

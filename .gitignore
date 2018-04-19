@@ -1,9 +1,8 @@
-# gitignore
 /.idea/
-/out/
+/.Log/
 /lib/
-/web/
-#jc.iml
-/src/*.xml
-/src/*.iml
+/out/
 /src/META-INF/
+/web/
+#.gitignore
+#eduget.jc.iml
